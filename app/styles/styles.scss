@@ -1,0 +1,129 @@
+// These should be here and in that order
+@import"x-main/_vendors.scss";
+@import "x-main/variables.scss";
+@import "fonts/_fontfaces.scss";
+// end
+
+
+@import"_footer.scss";
+@import"_navigation.scss";
+@import"_wrappers.scss";
+@import"elements/_a.scss";
+@import"elements/_buttons.scss";
+@import"elements/_form.scss";
+@import"elements/_img.scss";
+@import"elements/_misc.scss";
+@import"helpers/_helpers.scss";
+@import"helpers/_textstyles.scss";
+@import"elements/_checkbox.scss";
+
+.app-wrapper {
+  width: 100%;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+  background-color: rgb(214, 212, 180);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: var(--main-font);
+  font-size: var(--base-font-size);
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  border-radius: 90%;
+  width: 150px;
+}
+
+.homepage {
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  .homepage-img {
+    width: 300px;
+    display: block;
+    margin: auto;
+  }
+}
+
+.review img {
+  width: 100px;
+  border-radius: unset;
+}
+
+header {
+  align-self: center;
+  background-color: cadetblue;
+  width: 100%;
+  padding: 10px;
+}
+
+header img {
+  float: left;
+  width: 90px;
+}
+
+header h1 {
+  float: left;
+  padding-top: 25px;
+  padding-left: 15px;
+}
+
+.App-article {
+  text-align: center;
+  background-color: rgb(214, 212, 180);
+}
+
+table {
+  text-align: left;
+
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  outline: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: fit-content;
+}
+
+.reviews_list {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filter-table {
+  float: left;
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(245,242,232,1) 100%);
+  box-shadow: 0 2px 5px 0px var(--grey-400);
+  padding: 10px;
+  margin-left: 1in;
+  outline: auto;
+}
+
+
+.filter-title {
+  background-color: lightblue;
+  width: 100%;
+
+}
+
+.date-filter {
+  padding-bottom: 50px;
+}
+
+.pick-filter {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+
